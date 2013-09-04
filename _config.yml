@@ -1,7 +1,7 @@
 name: "Dimension Media"
-description: "Corporate Site"
+description: "Film Productions"
 
-url: "http://troyscott.github.io/ddallas-site"
+url: "http://troyscott.github.io/ddallas-site/" 
 
 paginate: 10
 
@@ -9,5 +9,5 @@ markdown: redcarpet
 permalink: /:year/:month/:day/:title
 pygments: true
 
-repo: "https://github.com/troyscott"
+
 
