@@ -1,7 +1,8 @@
 name: "Dimension Media"
 description: "Film Productions"
 
-url: "http://troyscott.github.io/ddallas-site/" 
+url: "http://localhost:4000"
+#url: "http://troyscott.github.io/ddallas-site/" 
 
 paginate: 10
 

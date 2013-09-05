@@ -5,8 +5,12 @@
 	<title>{{ site.name }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
+    <!--
     <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
- 
+ 	-->
+ 	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+ 	<link href="{{ site.url}}/css/main.css" rel="stylesheet">
+ 	
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
@@ -16,11 +20,18 @@
 <body>
 <!-- HEADER -->
 {% include navigation.html %}
+<div class="container" >
 <div class="jumbotron" >
   <div class="container" >
+  			
+  			<center><img src="../images/logo.png"/></center>
+  			<!--
             <h1>{{ site.name }}</h1>
             <h2>{{ site.description }}</h2>
             <h3>{{ site.url }}</h3>
+           -->
     </div> <!-- header wrap -->
   </div> <!-- container -->
 </div> <!-- jumbotron -->
+</div>
+
